@@ -1,0 +1,15 @@
+{
+  "name": "React Native Test",
+  "dockerComposeFile": "./compose.yml",
+  "service": "app",
+  "workspaceFolder": "/home/node/app",
+  "customizations": {
+    "vscode": {
+      "extensions": [
+        "ms-azuretools.vscode-docker",
+        "GitHub.copilot",
+        "oderwat.indent-rainbow"
+      ]
+    }
+  }
+}
