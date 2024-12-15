@@ -10,8 +10,8 @@ RUN apt-get update && apt-get install -y \
   && apt-get clean \
   && rm -rf /var/lib/apt/lists/*
 
+# bunのインストール
+RUN npm install -g bun
+
 # non-root-userに切り替え
 USER node
-
-# # bunのインストール
-# RUN npm install -g bun
